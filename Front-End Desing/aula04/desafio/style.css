@@ -1,0 +1,18 @@
+.body{
+    background-color: rgba(211, 211, 211, 1);
+}
+
+.desafio1 {
+    color: orange;
+}
+
+#lista1, #lista2{
+    color: #0000ff;
+}
+
+.título{
+    color: blueviolet;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+ol#lista2 {list-style-type: upper-roman;}
