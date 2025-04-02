@@ -3,10 +3,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Script JS</title>
-    <link rel="stylesheet" href="styles.css">
+    <script>
+        function minha_funcao(){
+            document.getElementById("alpha").innerHTML = "Meu programa JavaScript"
+        }
+    </script>
 </head>
 <body>
-    <h1>Hello World</h1>
-    <script src="script.js"></script>
+    <h1>Hello World!!!</h1>
+    <script src="/script.js"></script>
+
+    <h2>Java Script no corpo do HTML</h2>
+    <p id="demo">Um parágrafo</p>
+    <script>
+        document.getElementById("demo").innerHTML = "Meu programa JavaScript"
+    </script>
+    <p id="alpha">Um parágrafo</p>
+    <button type="button" onclick="minha_funcao()">Clique aqui</button>
 </body>
 </html>
