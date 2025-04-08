@@ -1,0 +1,29 @@
+div {
+    border: solid 1px black;
+    display: inline-block;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* propriedades */
+    width: 100px;
+    height: 120px;
+    overflow: hidden;
+}
+
+.atividade {
+    border: dotted 4px black;
+    display: inline-block;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 8px;
+    margin-left: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 9px;
+    padding-right: 9px;
+    /* propriedades */
+    width: 100px;
+    height: 120px;
+    overflow: scroll;
+}       
