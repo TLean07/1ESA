@@ -60,7 +60,30 @@ for(const propriedade in carro){
 
 //Outra forma de exibir um objeto (converte o objeto para uma String JSON)
 const carroJSON = JSON.stringify(carro);
+console.log(`Objeto carro com o JSON: ${carroJSON}`);
+exibirMensagemNoNavegador(`Objeto carro com o JSON: ${carroJSON}`);
 
+//Funções construtoras
+//Uma função construtora é usada para criar multíplos objetos com uma unica 
+//Usamos a palavra chave new para invocar um construtor
+function Pessoa(nome,idade,profissao){
+    this.nome = nome;//cria uma propriedade 'nome' para o nobo objeto e atribui o valor para o parametro nome
+    this.idade = idade;
+    this.profissao = profissao;
+    this.saudar = function(){
+        console.log(`Olá, meu nome é ${this.nome} e eu sou ${this.profissao}`);
+    }
+}
+
+//Criando a instância (objetos) da função construtora Pessoa usando o 'new'
+const pessoa1 = new Pessoa('Leandro',18,'Engenheiro de Software');
+const pessoa2 = new Pessoa('Guilherme',18,'Engenheiro de Software');
+
+console.log('---funções Construtoras---');
+console.log(`Nome da pessoa 1: ${pessoa1.nome}`);
+pessoa1.saudar();
+console.log(`Nome da pessoa 2: ${pessoa2.nome}`);
+pessoa1.saudar();
 
 function exibirMensagemNoNavegador(mensagem){
     const paragrafo = document.createElement('p')//cria um novo elemento <p>
