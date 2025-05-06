@@ -1,0 +1,62 @@
+#grad {
+  width: 300px;
+  height: 100px;
+  background-image: radial-gradient(red, yellow);
+}
+
+div.vazio {
+  width: 100px;
+  height: 100px;
+  border: solid 1px black;
+  position: absolute;
+  left: 200px;
+  top: 150px;
+}
+
+div.transform {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 200px;
+  top: 150px;
+  background-color: red;
+}
+
+img.transform {
+  transform: rotateZ(-0.2turn);
+}
+
+div.transition {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  transition: all 2s;
+}
+div.transition:hover {
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+  background-color: cyan;
+}
+
+input {
+  width: 100px;
+  height: 100px;
+  transition: all 2s;
+}
+
+input:focus {
+  width: 200px;
+  font-size: 24px;
+}
+
+div.animado {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border: solid 1px;
+}
+
+div.animado:hover {
+  transform: skewY(25deg);
+}
