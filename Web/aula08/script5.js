@@ -86,3 +86,5 @@ function adicionarItem(){
     });
 };
 //inicializa o processo de adicionar itens à lista de compras chamando a função pela primeira vez
+console.log('Bem vindo a sua lista de compra');
+adicionarItem();
