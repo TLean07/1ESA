@@ -1,0 +1,119 @@
+body {
+    margin: auto;
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(201, 206, 198);
+}
+
+.pai-flex {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 391px;
+    height: 132px;
+    border: solid 1px  rgb(0, 255, 136);
+}
+
+.filho-flex {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 255, 136);
+    margin: 15px;
+}
+
+.caixa-cinza {
+    background-color: #ffffff;
+    height: 200px;
+    display: flex;
+    flex-direction: row; 
+    align-items: flex-start; 
+    border: solid 1px  rgb(0, 255, 136);
+}
+
+.caixa-direction {
+    width: 100px;
+    height: 100px;
+    background-color:  rgb(0, 255, 136);
+    border-radius: 15px;
+    margin: 10px;
+    position: relative;
+}
+
+.numero {
+    font-size: 150%;
+    color:  rgb(0, 255, 136);
+    font-weight: bold;
+}
+
+.circulo {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.caixa-branca {
+    background-color: #ffffff;
+    border: solid 1px  rgb(0, 255, 136);
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap; 
+}
+
+.caixa-wrap {
+    width: 100px;
+    height: 100px;
+    background-color:  rgb(0, 255, 136);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    position: relative;
+}
+
+.caixa-azul {
+    background-color: #287bf7;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: solid 1px  rgb(0, 255, 136);
+}
+
+.caixa-justify {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 255, 136);
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.caixa-azul2 {
+    background-color: #287bf7;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    width: 111px;
+    flex-direction: column;
+    height: 600px;
+    justify-content: center;
+    border: solid 1px  rgb(0, 255, 136);
+}
+
+.caixa-justify2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 255, 136);
+    margin: 5px;
+    border-radius: 10px;
+}
