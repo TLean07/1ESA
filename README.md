@@ -28,16 +28,6 @@ Este repositório contém os projetos e atividades desenvolvidas ao longo do ano
 
 ---
 
-## 🧠 Projetos em Destaque
-
-| Projeto        | Descrição                                       | Link                              |
-| -------------- | ----------------------------------------------- | --------------------------------- |
-| Verificador de Fake News | Sistema de verificação de frases com interface interativa | [Acessar](https://github.com/TLean07/1ESA/tree/main/Verificador) |
-| Painel Interativo | Painel de comparação entre Fake News e Fatos | [Acessar](https://github.com/TLean07/1ESA/tree/main/Painel) |
-| Splash e Login | Telas animadas de entrada em apps Ionic React | [Acessar](https://github.com/TLean07/1ESA/tree/main/SplashLogin) |
-
----
-
 ## 🧑‍💻 Autor
 
 | Nome                                   | RM     | GitHub                                |
