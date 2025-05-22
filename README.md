@@ -20,6 +20,7 @@ Este repositório contém os projetos e atividades desenvolvidas ao longo do ano
 - HTML5
 - CSS3
 - JavaScript (ES6+)
+- Python 
 - [Node.js](https://nodejs.org/)
 - [Firebase](https://firebase.google.com/)
 - [Ionic Framework](https://ionicframework.com/)
