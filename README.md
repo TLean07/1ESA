@@ -1,6 +1,6 @@
 <h1 align="center">📘 Projeto 1ESA</h1>
 <p align="center">
-  Um repositório dedicado aos projetos da 1ª série do curso de Engenharia de Software da FIAP .
+  Um repositório dedicado aos projetos da 1ª série do curso de Engenharia de Software da FIAP.
 </p>
 <p align="center">
   <img src="https://img.shields.io/github/license/TLean07/1ESA?style=for-the-badge" alt="License Badge">
