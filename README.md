@@ -7,11 +7,16 @@
   <img src="https://img.shields.io/github/languages/top/TLean07/1ESA?style=for-the-badge" alt="Top Language">
   <img src="https://img.shields.io/github/repo-size/TLean07/1ESA?style=for-the-badge" alt="Repo Size">
 </p>
+
 ---
+
 ## ✨ Sobre o Projeto
 Este repositório contém os projetos e atividades desenvolvidas ao longo do ano letivo de 2025 pela turma 1ESA, com foco em programação, front-end, lógica computacional e desenvolvimento de aplicações web e mobile.
+
 ---
+
 ## 🚀 Tecnologias Utilizadas
+
 - HTML5
 - CSS3
 - JavaScript (ES6+)
@@ -20,20 +25,28 @@ Este repositório contém os projetos e atividades desenvolvidas ao longo do ano
 - [Ionic Framework](https://ionicframework.com/)
 - [React](https://reactjs.org/)
 - [Vite](https://vitejs.dev/)
+
 ---
+
 ## 🧠 Projetos em Destaque
+
 | Projeto        | Descrição                                       | Link                              |
 | -------------- | ----------------------------------------------- | --------------------------------- |
 | Verificador de Fake News | Sistema de verificação de frases com interface interativa | [Acessar](https://github.com/TLean07/1ESA/tree/main/Verificador) |
 | Painel Interativo | Painel de comparação entre Fake News e Fatos | [Acessar](https://github.com/TLean07/1ESA/tree/main/Painel) |
 | Splash e Login | Telas animadas de entrada em apps Ionic React | [Acessar](https://github.com/TLean07/1ESA/tree/main/SplashLogin) |
+
 ---
+
 ## 🧑‍💻 Autor
+
 | Nome                                   | RM     | GitHub                                |
 | -------------------------------------- | ------ | -------------------------------------- |
 | Leandro Afonso Silva Santos Junior     | 561344 | [TLean07](https://github.com/TLean07) |
 ---
+
 ## 🛠️ Como Executar
+
 ```bash
 # Clone este repositório
 git clone https://github.com/TLean07/1ESA.git
